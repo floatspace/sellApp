@@ -141,6 +141,7 @@
   @import "../../common/css/mixin.styl"
   .rating-wrap
     position: absolute
+    width: 100%
     top: 174px
     bottom: 0px
     overflow: hidden
