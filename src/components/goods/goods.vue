@@ -11,8 +11,8 @@
         </li>
       </ul>
     </div>
-    <div ref="foodsWrap">
-      <div class="foods-wrap">
+    <div ref="foodsWrap" class="foods-wrap">
+      <div class="foods-list">
         <div v-for="good in goods" class="food-list-hook">
           <h1 class="type">{{good.name}}</h1>
           <ul class="foods">
@@ -157,6 +157,7 @@
     position: absolute
     top: 174px
     bottom: 58px
+    width: 100%
     overflow: hidden
     .menu-wrap
       flex: 0 0 80px
